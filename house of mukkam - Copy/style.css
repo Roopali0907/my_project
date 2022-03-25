@@ -1,0 +1,99 @@
+body {
+    /* The image used */
+    background-image: url("Woman-talking-to-a-construction-worker.png");
+  
+    min-height: 500px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+  }
+  body {
+    /* The image used */
+    background-image: url("Woman-talking-to-a-construction-worker.png");
+  
+    max-height: 880px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+  }
+  
+  /* Position the navbar container inside the image */
+  .container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+    justify-content: end;
+  }
+.reader{
+  background-image: url("Group\ 3.png");
+  max-height: 400px;
+  
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+  }
+  .read1{
+    background-image: url("Rectangle\ 4.png");
+    min-height: 90px;
+    
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    
+      /* Needed to position the navbar */
+      position: relative;
+    }
+    .read1{
+      background-image: url("Rectangle\ 4.png");
+      max-height: 400px;
+      
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      
+        /* Needed to position the navbar */
+        position: relative;
+      }
+
+  .read2{
+    background-image: url("Rectangle\ 4.png");
+    min-height: 300px;
+    
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    
+      /* Needed to position the navbar */
+      position: relative;
+    }
+    .read2{
+      background-image: url("Rectangle\ 4.png");
+      max-height: 900px;
+      
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      
+        /* Needed to position the navbar */
+        position: relative;
+      }
+  

@@ -1,0 +1,12 @@
+<div class="col-sm-3">
+          <div class="card">
+            <div class="card">
+              <div class="media">
+                <img class="mr-3" src="Rectangle 2.0.png" alt="Generic placeholder image">
+                <div class="media-body">
+                  Phasellus tempor augue <br> eget augue faucibus, nec <br>dictum dui tempus.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
