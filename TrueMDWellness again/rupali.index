@@ -1,0 +1,73 @@
+<div class="container">
+      <h1 style="font-size:2vw;margin-top: -3rem; "class="font-weight-light">The TrueMD</h1>
+      <h1 style="font-size:2.4vw;font-weight: bold;margin-top: 2rem;">Program In A Nutshell</h1>
+        <div class="row">
+          <div class="col-8">
+            <p style="font-size:1.3vw; margin-top: 2.5rem;" >TrueMD is dedicated to helping you reach your      potential for improved health, increase your lifespan, and improve
+              your quality of life as you age. Our goal is to help you accomplish this through three main concepts offered
+              through TrueMD Affiliates’ True Hormone Pellet Therapy, The True Weight-loss program, and True Wellness
+              Concepts. Both men and women can benefit from our programs and can enjoy a boost in energy, improved
+              sexual satisfaction, less age-related symptoms and potentially protecting you from those debilitating diseases
+              that you could get as you age.</p>
+              <p style="font-size:1.3vw;"> Affiliates of TrueMD are committed to helping you live happier, longer, and with more enjoyment of life. All are
+              certified to provide this through extensive training programs at the TrueMD headquarters in Colleyville, TX Each is
+              highly trained and is passionate in helping you get the services you need. Everyone wants to get older and
+              “age”.None of us want to die prematurely, but you want to age with quality of life: enjoy better sex, vitality,
+              energy, activity, clarity of mind, eating well, and social connections.</p>
+          </div>
+          <div class="col-4">
+            <img src="happy-face.jpg" class="rounded float-end" width="400" height="400" alt="missingImages">
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-light navbar-expand-lg " style="background-color: #88d4e5;height: 50px;">
+        <div class="container-fluid">
+          <span class="navbar-brand mb-0 h1 text-white">|   Phone:(817)399 8783 5203   |   Heritage Ave. Colleyville,TX 76034 |</span>
+          <a class="navbar-brand text-white" href="#">Follow Us :
+  
+            <img src="Bitmap.png" class="img-fluid"  width="100" height="20" alt="Responsive image">
+          </a>
+        </div>
+      </nav>
+    </section>
+    <!--header end........-->
+
+    <!--navbar start ..............-->
+    <section>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" style="height: 70px;">
+        <div class="container-fluid ">
+          <a class="navbar-brand text-white" href="#">
+            <img src="TrueMDWellness.png" class="img-fluid"  width="160" height="20" alt="Responsive image">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span><img src="Bitmap2.png" class="img-fluid"  width="30" height="20" alt="Responsive image"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav m-auto ml-2" style="font-weight: bold;">
+              <a class="nav-link active " aria-current="page" href="#">Home</a>
+              <a class="nav-link text-dark " href="#">Wellness</a>
+              <a class="nav-link text-dark" href="#">Store</a>
+              <a class="nav-link text-dark" href="#">Physician Affiliate</a>
+              <a class="nav-link text-dark" href="#">Contact Us</a>
+              <a class="nav-link text-dark" href="#">About us </a>
+              
+              <a class="navbar-brand text-white" href="#">
+                <img src="Bitmap1.png" class="img-fluid"  width="" height="20" alt="Responsive image">
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
