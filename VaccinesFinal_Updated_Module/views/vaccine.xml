@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- create kanban -->
+    <record id="view_Vaccine_kanban" model="ir.ui.view">
+        <field name="name">covid.vaccine.kanban</field>
+        <field name="model">covid.vaccine</field>
+        <field name="arch" type="xml">
+            <kanban>
+                <field name="developer_researcher" />
+                <field name="trimedName" />
+                <field name="Category" />
+                <field name="trimed_Category" />
+                <field name="phase" />
+                <field name="nextsteps" />
+                <field name="desc" />
+                <field name="Funder" />
+                <field name="Approve" />
+                <field name="format_data" />
+                <templates>
+                    <t t-name="kanban-box">
+                        <div t-attf-class="oe_kanban_global_click">
+                            <div class="oe_kanban_details">
+                                <ul>
+                                    <li>
+                                        <field name="developer_researcher" />
+                                    </li>
+                                    <li>
+                                        <field name="trimedName" />
+                                    </li>
+                                    <li>
+                                        <field name="phase" />
+                                    </li>
+                                    <li>
+                                        <field name="Category" />
+                                    </li>
+                                    <li>
+                                        <field name="trimed_Category" />
+                                    </li>
+                                    <li>
+                                        <field name="desc" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </t>
+                </templates>
+            </kanban>
+        </field>
+    </record>
+    <!-- create tree -->
+    <record id="vaccine_tree_view" model="ir.ui.view">
+        <field name="name">covid.vaccine.tree</field>
+        <field name="model">covid.vaccine</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="developer_researcher" />
+                <field name="trimedName" />
+                <field name="Category" />
+                <field name="trimed_Category" />
+                <field name="phase" />
+                <field name="nextsteps" />
+                <field name="desc" />
+                <field name="Funder" />
+                <field name="Approve" />
+                <field name="format_data" />
+            </tree>
+        </field>
+    </record>
+
+    <!-- create form -->
+    <record id="vaccine_form_view" model="ir.ui.view">
+        <field name="name">covid.vaccine.form</field>
+        <field name="model">covid.vaccine</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="developer_researcher" />
+                            <field name="trimedName" />
+                            <field name="Category" />
+                        </group>
+                        <group>
+                            <field name="trimed_Category" />
+                            <field name="phase" />
+                            <field name="nextsteps" />
+                        </group>
+                    </group>
+                    <group>
+                        <group>
+                            <field name="desc" />
+                            <field name="Funder" />
+                        </group>
+                        <group>
+                            <field name="Approve" />
+                            <field name="format_data" />
+                        </group>
+                    </group>
+
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- access right -->
+    <record id="vaccine_action" model="ir.actions.act_window">
+        <field name="name">Get All Vaccine</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">covid.vaccine</field>
+        <field name="view_mode">tree,form,kanban</field>
+
+        <field name="help" type="html">
+            <p>
+        Create your first vaccine information using API.
+      </p>
+        </field>
+    </record>
+
+    <!-- create menu  and submenu -->
+    <menuitem id="vaccine_root" name="Vaccine Info" />
+    <menuitem id="vaccine_info_root" name="Get All Vaccine" parent="vaccine_root" />
+    <menuitem id="vaccine_info_sub_root" name="Vaccine Info" parent="vaccine_info_root" action="vaccine_action" />
+
+</odoo>

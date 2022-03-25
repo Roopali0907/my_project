@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+   <!-- report infromation including covid.vaccine model -->
+    <record id="report_covid_vaccine" model="ir.actions.report">
+        <field name="name">Vaccine Details</field>
+        <field name="model">covid.vaccine</field> 
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">vaccovid.report_covid_id_vaccine</field>
+        <field name="report_file">vaccovid.report_covid_id_vaccine</field>
+        <field name="binding_model_id" ref="model_covid_vaccine"/>
+        <field name="binding_type">report</field>
+    </record>
+</odoo>
