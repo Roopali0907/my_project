@@ -1,0 +1,132 @@
+"id","name","url","website_id","website_indexed","is_published","track","active","arch_db","arch_fs","arch_base","cache_key_expr","cache_time","field_parent","id","footer_visible","groups_id","header_color","header_overlay","header_visible","is_homepage","inherit_id","key","model","arch_updated","page_ids","arch_prev","date_publish","menu_ids","seo_name","priority","customize_show","theme_template_id","view_id","arch","mode","type","inherit_children_ids","visibility","visibility_password","visibility_password_display","website_published","website_meta_description","website_meta_keywords","website_meta_title","website_meta_og_img"
+"__export__.website_page_31_e5349d02","Thanks (Contact us)","/contactus-thank-you","TrueMD","","True","","True","<t name=""Thanks (Contact us)"" t-name=""website_form.contactus_thanks"">
+  <t t-call=""website.layout"">
+    <div id=""wrap"">
+      <div class=""oe_structure"" id=""oe_structure_website_form_contact_us_thanks_1""/>
+      <div class=""container mt-4"">
+        <div class=""row"">
+          <div class=""col-lg-7 col-xl-6 mr-lg-auto oe_structure"">
+            <section class=""pt40 s_text_block pb40 o_colored_level o_cc o_cc1"" data-snippet=""s_text_block"" data-name=""Text"">
+              <div class=""container"">
+                <span class=""d-block fa fa-4x fa-thumbs-up mx-auto rounded-circle bg-primary"" data-original-title="""" title="""" aria-describedby=""tooltip926763""/>
+                <br/>
+                <h1 class=""text-center"">
+                  <font style=""color: rgb(9, 211, 230);"">Thank You!</font>
+                </h1>
+                <h5 class=""text-center"">
+                  <span class=""fa fa-check-circle""/>
+                  <div class=""alert alert-success"" role=""alert"">
+                    <span>Your Information has been sent <b>successfully</b></span>
+                  </div>
+                </h5>
+                <p class=""text-center"">We will get back to you shortly.</p>
+              </div>
+            </section>
+          </div>
+          <div class=""col-lg-4 text-secondary text-left"">
+            <t t-call=""website.company_description""/>
+          </div>
+        </div>
+      </div>
+      <div class=""oe_structure"" id=""oe_structure_website_form_contact_us_thanks_2""/>
+    </div>
+  </t>
+</t>","website_form/views/website_form_templates.xml","<t name=""Thanks (Contact us)"" t-name=""website_form.contactus_thanks"">
+  <t t-call=""website.layout"">
+    <div id=""wrap"">
+      <div class=""oe_structure"" id=""oe_structure_website_form_contact_us_thanks_1""/>
+      <div class=""container mt-4"">
+        <div class=""row"">
+          <div class=""col-lg-7 col-xl-6 mr-lg-auto oe_structure"">
+            <section class=""pt40 s_text_block pb40 o_colored_level o_cc o_cc1"" data-snippet=""s_text_block"" data-name=""Text"">
+              <div class=""container"">
+                <span class=""d-block fa fa-4x fa-thumbs-up mx-auto rounded-circle bg-primary"" data-original-title="""" title="""" aria-describedby=""tooltip926763""/>
+                <br/>
+                <h1 class=""text-center"">
+                  <font style=""color: rgb(9, 211, 230);"">Thank You!</font>
+                </h1>
+                <h5 class=""text-center"">
+                  <span class=""fa fa-check-circle""/>
+                  <div class=""alert alert-success"" role=""alert"">
+                    <span>Your Information has been sent <b>successfully</b></span>
+                  </div>
+                </h5>
+                <p class=""text-center"">We will get back to you shortly.</p>
+              </div>
+            </section>
+          </div>
+          <div class=""col-lg-4 text-secondary text-left"">
+            <t t-call=""website.company_description""/>
+          </div>
+        </div>
+      </div>
+      <div class=""oe_structure"" id=""oe_structure_website_form_contact_us_thanks_2""/>
+    </div>
+  </t>
+</t>
+","","3600","","__export__.website_page_31_e5349d02","True","","","","True","","","website_form.contactus_thanks","","True","Thanks (Contact us)","<t name=""Thanks (Contact us)"" t-name=""website_form.contactus_thanks"">
+  <t t-call=""website.layout"">
+    <div id=""wrap"">
+      <div class=""oe_structure"" id=""oe_structure_website_form_contact_us_thanks_1""/>
+      <div class=""container mt-4"">
+        <div class=""row"">
+          <div class=""col-lg-7 col-xl-6 mr-lg-auto oe_structure"">
+            <section class=""pt40 s_text_block pb40 o_colored_level o_cc o_cc1"" data-snippet=""s_text_block"" data-name=""Text"">
+              <div class=""container"">
+                <span class=""d-block fa fa-4x fa-thumbs-up mx-auto rounded-circle bg-primary""/>
+                <br/>
+                <h1 class=""text-center"">
+                  <font style=""color: rgb(9, 211, 230);"">Thank You!</font>
+                </h1>
+                <h5 class=""text-center"">
+                  <span class=""fa fa-check-circle""/>
+                  <div class=""alert alert-success"" role=""alert"">
+                   <span>Your Information has been sent <b>successfully</b></span>
+                </div>
+                  <!--<span>Your message has been sent <b>successfully</b></span>-->
+                </h5>
+                <p class=""text-center"">We will get back to you shortly.</p>
+              </div>
+            </section>
+          </div>
+          <div class=""col-lg-4 text-secondary text-left"">
+            <t t-call=""website.company_description""/>
+          </div>
+        </div>
+      </div>
+      <div class=""oe_structure"" id=""oe_structure_website_form_contact_us_thanks_2""/>
+    </div>
+  </t>
+</t>","","","","16","","","Thanks (Contact us)","<t name=""Thanks (Contact us)"" t-name=""website_form.contactus_thanks"">
+  <t t-call=""website.layout"">
+    <div id=""wrap"">
+      <div class=""oe_structure"" id=""oe_structure_website_form_contact_us_thanks_1""/>
+      <div class=""container mt-4"">
+        <div class=""row"">
+          <div class=""col-lg-7 col-xl-6 mr-lg-auto oe_structure"">
+            <section class=""pt40 s_text_block pb40 o_colored_level o_cc o_cc1"" data-snippet=""s_text_block"" data-name=""Text"">
+              <div class=""container"">
+                <span class=""d-block fa fa-4x fa-thumbs-up mx-auto rounded-circle bg-primary"" data-original-title="""" title="""" aria-describedby=""tooltip926763""/>
+                <br/>
+                <h1 class=""text-center"">
+                  <font style=""color: rgb(9, 211, 230);"">Thank You!</font>
+                </h1>
+                <h5 class=""text-center"">
+                  <span class=""fa fa-check-circle""/>
+                  <div class=""alert alert-success"" role=""alert"">
+                    <span>Your Information has been sent <b>successfully</b></span>
+                  </div>
+                </h5>
+                <p class=""text-center"">We will get back to you shortly.</p>
+              </div>
+            </section>
+          </div>
+          <div class=""col-lg-4 text-secondary text-left"">
+            <t t-call=""website.company_description""/>
+          </div>
+        </div>
+      </div>
+      <div class=""oe_structure"" id=""oe_structure_website_form_contact_us_thanks_2""/>
+    </div>
+  </t>
+</t>","primary","qweb","","","","","True","","","",""

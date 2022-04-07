@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- genrating report here and fetch the data from API  -->
+    <template id="report_covid_id_vaccine">
+        <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="doc">
+                <t t-call="web.external_layout">
+                    <h1 class="text-center mt48">Vaccine Information</h1><br/><br/>
+                    <div class="text-left mb32">
+                        <h3><strong>DeveloperResearcher</strong> : <t t-esc="doc.developer_researcher"/></h3><br/>
+                        <h3><strong>TrimedName</strong> : <t t-esc="doc.trimedName"/></h3><br/>
+                        <h3><strong>Category</strong> : <t t-esc="doc.Category"/></h3><br/>
+                        <h3><strong>Trimed_Category</strong> : <t t-esc="doc.trimed_Category"/></h3><br/>
+                        <h3><strong>Phase</strong> : <t t-esc="doc.phase"/></h3><br/>
+                        <h3><strong>Nextsteps</strong> : <t t-esc="doc.nextsteps"/></h3><br/>
+                        <h3><strong>Description</strong> : <t t-esc="doc.desc"/></h3><br/>
+                        <h3><strong>Funder</strong> : <t t-esc="doc.Funder"/></h3><br/>
+                        <h3><strong>FDAApprove</strong> : <t t-esc="doc.Approve"/></h3><br/>
+                        <h3><strong>lastUpdate</strong> : <t t-esc="doc.format_data"/></h3><br/>
+                    </div>
+
+                </t>
+            </t>
+        </t>
+    </template>
+</odoo>

@@ -1,0 +1,39 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .top{
+    position: absolute;
+    top: 60px;
+    left: 80px;
+  }
+  .top .text1{
+     font-weight: bold;
+     left: -30px;
+  }
+  
+  .top .text2{
+      font-weight: bold;
+      font-size: 56px;
+      left: 80px;
+      
+  }
+  .top .text3{
+      font-weight: normal;
+      left : -30px;
+      
+  }
+  .img{
+      height: 100%;
+      width: 100%;
+  }
+  .btn{
+      font-weight: bold;
+  }
+  
+  
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+  width: 24px;
+  height: 24px;
+  }

@@ -1,0 +1,415 @@
+"id","name","url","website_id","website_indexed","is_published","track","active","arch_db","arch_fs","arch_base","cache_key_expr","cache_time","field_parent","id","footer_visible","groups_id","header_color","header_overlay","header_visible","inherit_id","key","model","arch_updated","page_ids","arch_prev","date_publish","menu_ids","seo_name","priority","customize_show","theme_template_id","view_id","arch","mode","type","inherit_children_ids","visibility","visibility_password","visibility_password_display","website_published","website_meta_description","website_meta_keywords","website_meta_title","website_meta_og_img"
+"__export__.website_page_26_45185aed","contact","/contact","TrueMD","True","True","True","True","<t t-name=""website.contact"">
+  <t t-call=""website.layout"">
+    <div id=""wrap"" class=""oe_structure oe_empty"">
+      <section class=""s_text_image pt32 pb32 o_colored_level"" data-snippet=""s_image_text"" data-name=""Image - Text"" style="""">
+        <div class=""container-fluid"">
+          <div class=""row align-items-stretch"">
+            <div class=""pb16 o_colored_level pt0 col-lg-4"" style="""">
+              <h2>&amp;nbsp;<font style=""font-size: 24px;"" class=""text-600"">Write Us
+              </font></h2>
+              <section class=""s_website_form pt16 pb16 o_colored_level"" data-vcss=""001"" data-snippet=""s_website_form"" data-name=""Form"">
+                <div class=""container"">
+                  <form action=""/website_form/"" method=""post"" enctype=""multipart/form-data"" class=""o_mark_required"" data-mark=""*"" data-success-mode=""redirect"" data-success-page=""/contactus-thank-you"" data-model_name=""mail.mail"">
+                    <div class=""s_website_form_rows row s_col_no_bgcolor"">
+                      <div class=""form-group s_website_form_field col-12 s_website_form_custom s_website_form_required  "" data-type=""char"" data-name=""Field"">
+                        <label class=""s_website_form_label"" style=""width: 200px"" for=""onf5txx072c"">
+                          <span class=""s_website_form_label_content"">
+                            <font style="""" class=""text-600"">Name</font>
+                          </span>
+                          <span class=""s_website_form_mark"">
+                            <font style="""" class=""text-600"">&amp;nbsp;</font>
+                            <font style=""color: rgb(255, 0, 0);"">    *</font>
+                          </span>
+                        </label>
+                        <input type=""text"" class=""form-control s_website_form_input"" name=""Name"" required=""1"" placeholder=""Natasha Romanoff"" id=""onf5txx072c""/>
+                      </div>
+                      <div class=""form-group s_website_form_field col-12  s_website_form_model_required  "" data-type=""char"" data-name=""Field"">
+                        <label class=""s_website_form_label "" style=""width: 200px"" for=""o0wstbw4ui67"">
+                          <span class=""s_website_form_label_content"">
+                            <font style="""" class=""text-600"">Email</font>
+                          </span>
+                          <span class=""s_website_form_mark"">
+                            <font style=""color: rgb(255, 0, 0);"">*</font>
+                          </span>
+                        </label>
+                        <input type=""text"" class=""form-control s_website_form_input"" name=""email_from"" required=""true"" placeholder=""natasha.romanoff@truemd.com"" id=""o0wstbw4ui67""/>
+                      </div>
+                      <div class=""form-group s_website_form_field col-12  s_website_form_model_required  "" data-type=""char"" data-name=""Field"">
+                        <label class=""s_website_form_label "" style=""width: 200px"" for=""om3rzbefak6"">
+                          <span class=""s_website_form_label_content"">
+                            <font style="""" class=""text-600"">Phone</font>
+                          </span>
+                          <span class=""s_website_form_mark"">
+                            <font style=""color: rgb(255, 0, 0);"">*</font>
+                          </span>
+                        </label>
+                        <input type=""text"" class=""form-control s_website_form_input"" name=""subject"" required=""true"" placeholder=""0201 203 2032"" id=""om3rzbefak6""/>
+                      </div>
+                      <div class=""form-group s_website_form_field col-12 s_website_form_custom s_website_form_required col-lg-12"" data-type=""text"" data-name=""Field"">
+                        <label class=""s_website_form_label "" style=""width: 200px"" for=""o08ydcm18o18m"">
+                          <span class=""s_website_form_label_content"">
+                            <font style="""" class=""text-600"">What's on your mind?</font>
+                          </span>
+                          <span class=""s_website_form_mark"">
+                            <font style=""color: rgb(255, 0, 0);"">&amp;nbsp;      *</font>
+                          </span>
+                        </label>
+                        <textarea class=""form-control s_website_form_input"" name=""What's on your mind?"" required=""1"" placeholder="""" id=""o08ydcm18o18m"" rows=""8""/>
+                      </div>
+                      <div class=""form-group s_website_form_field col-12    s_website_form_dnone"" data-name=""Field"">
+                        <div class=""row s_col_no_resize s_col_no_bgcolor"">
+                          <label class=""col-form-label col-sm-auto s_website_form_label "" style=""width: 200px"">
+                            <span class=""s_website_form_label_content""/>
+                            <span title=""Separate email addresses with a comma."">
+                              <i class=""fa fa-info-circle""/>
+                            </span>
+                          </label>
+                          <div class=""col-sm"">
+                            <input type=""hidden"" class=""form-control s_website_form_input"" name=""email_to"" value=""info@yourcompany.example.com""/>
+                          </div>
+                        </div>
+                      </div>
+                      <div class=""form-group col-12 s_website_form_submit text-right s_website_form_no_submit_label"" data-name=""Submit Button"">
+                        <div style=""width: 200px;"" class=""s_website_form_label""/>
+                        <a href=""#"" role=""button"" class=""btn btn-lg btn-primary s_website_form_send"" data-original-title="""" title="""" aria-describedby=""tooltip138086"">&amp;nbsp; SUBMIT&amp;nbsp;&amp;nbsp;</a>
+                        <span id=""s_website_form_result""/>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </section>
+              <p>
+                <br/>
+              </p>
+            </div>
+            <div class=""o_colored_level pb16 pt16 col-lg-4"" style="""">
+              <font style=""font-size: 24px;"" class=""text-600"">
+                <br/>
+              </font>
+              <font style=""font-weight: bold; font-size: 18px;"" class=""text-600"">
+                <br/>
+              </font>
+              <font style=""font-size: 18px;"" class=""text-600"">
+                <b>
+                  <br/>
+                </b>
+              </font>
+            </div>
+            <div class=""o_colored_level pb16 pt16 col-lg-4"" style=""""><font style=""font-size: 24px;"" class=""text-600"">Contact <b>Details<br/><br/><div style=""text-align: left;""><b>&amp;nbsp;</b><span class=""fa fa-phone img-thumbnail text-100"" data-original-title="""" title="""" aria-describedby=""tooltip364524"" style=""background-color: rgb(9, 211, 230);""/><b>&amp;nbsp; &amp;nbsp;</b><span style=""font-size: 14.4px; font-weight: 400;"">0</span><span style=""font-size: 14.4px; font-weight: 400;"">201 203 2023</span></div></b></font><div style=""text-align: left;""><font class=""text-600"" style=""font-size: 18px;""><b>&amp;nbsp;</b></font><span style=""font-size: 1rem;"">&amp;nbsp;</span></div><div style=""text-align: left;""><span style=""font-size: 1rem;"">&amp;nbsp;&amp;nbsp;</span><span class=""fa fa-mobile-phone img-thumbnail text-100"" style=""background-color: rgb(9, 211, 230);"" data-original-title="""" title="""" aria-describedby=""tooltip587306""/><span style=""font-size: 1rem;"">&amp;nbsp; &amp;nbsp; &amp;nbsp;</span><span style=""color: rgb(108, 117, 125);"">201-123-3922</span>&amp;nbsp;&amp;nbsp;<b style=""font-size: 1rem;""><font style="""" class=""text-600"">&amp;nbsp;</font><font style=""font-size: 18px;"" class=""text-600""> &amp;nbsp;&amp;nbsp;</font></b></div><b><div style=""text-align: left;""><b style=""font-size: 1rem;""><font style=""font-size: 18px;"" class=""text-600"">&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; </font></b>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<b style=""font-size: 1rem;""><font style=""font-size: 18px;"" class=""text-600"">&amp;nbsp;</font></b></div></b><div style=""text-align: left;""><span style=""font-size: 1rem;"">&amp;nbsp;&amp;nbsp;</span><span class=""fa fa-envelope-o img-thumbnail text-100"" data-original-title="""" title="""" aria-describedby=""tooltip749009"" style=""background-color: rgb(9, 211, 230);""/><span style=""background-color: rgb(241, 247, 253); font-size: 1rem;"">&amp;nbsp;&amp;nbsp;</span><span style=""font-size: 1rem;"">&amp;nbsp;&amp;nbsp;</span><font style=""font-size: 18px;"">&amp;nbsp;&amp;nbsp;</font><b style=""font-size: 1rem;""><font style=""font-size: 18px;"" class=""text-600""><small>hello@truemd.com</small></font></b></div><div style=""text-align: left; font-weight: bold;""><b style=""font-size: 1rem;""><font style=""font-size: 18px;"" class=""text-600"">&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;</font></b>&amp;nbsp;&amp;nbsp;&amp;nbsp;<small><font style=""font-size: 9px;""><br/></font></small></div><font style="""" class=""text-600""><span style=""font-size: 18px;""><b>&amp;nbsp;&amp;nbsp;</b></span></font><span class=""fa fa-commenting-o img-thumbnail text-100"" style=""background-color: rgb(9, 211, 230);"" data-original-title="""" title="""" aria-describedby=""tooltip486723""/><small><font style=""font-size: 14px;"" class=""text-600""><span style=""font-size: 18px;""><b>&amp;nbsp; &amp;nbsp;</b></span><b> </b>&amp;nbsp;truemd_skype</font></small><small><br/></small><small><font style=""font-size: 18px; font-weight: bold;"" class=""text-600"">&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp;</font></small>&amp;nbsp;<font style=""font-weight: bold; font-size: 18px;"" class=""text-600""> &amp;nbsp;&amp;nbsp;<br/></font><font style=""font-size: 18px;"" class=""text-600""><b><br/></b></font></div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </t>
+</t>","","<t t-name=""website.contact"">
+  <t t-call=""website.layout"">
+    <div id=""wrap"" class=""oe_structure oe_empty"">
+      <section class=""s_text_image pt32 pb32 o_colored_level"" data-snippet=""s_image_text"" data-name=""Image - Text"" style="""">
+        <div class=""container-fluid"">
+          <div class=""row align-items-stretch"">
+            <div class=""pb16 o_colored_level pt0 col-lg-4"" style="""">
+              <h2>&amp;nbsp;<font style=""font-size: 24px;"" class=""text-600"">Write Us
+              </font></h2>
+              <section class=""s_website_form pt16 pb16 o_colored_level"" data-vcss=""001"" data-snippet=""s_website_form"" data-name=""Form"">
+                <div class=""container"">
+                  <form action=""/website_form/"" method=""post"" enctype=""multipart/form-data"" class=""o_mark_required"" data-mark=""*"" data-success-mode=""redirect"" data-success-page=""/contactus-thank-you"" data-model_name=""mail.mail"">
+                    <div class=""s_website_form_rows row s_col_no_bgcolor"">
+                      <div class=""form-group s_website_form_field col-12 s_website_form_custom s_website_form_required  "" data-type=""char"" data-name=""Field"">
+                        <label class=""s_website_form_label"" style=""width: 200px"" for=""onf5txx072c"">
+                          <span class=""s_website_form_label_content"">
+                            <font style="""" class=""text-600"">Name</font>
+                          </span>
+                          <span class=""s_website_form_mark"">
+                            <font style="""" class=""text-600"">&amp;nbsp;</font>
+                            <font style=""color: rgb(255, 0, 0);"">    *</font>
+                          </span>
+                        </label>
+                        <input type=""text"" class=""form-control s_website_form_input"" name=""Name"" required=""1"" placeholder=""Natasha Romanoff"" id=""onf5txx072c""/>
+                      </div>
+                      <div class=""form-group s_website_form_field col-12  s_website_form_model_required  "" data-type=""char"" data-name=""Field"">
+                        <label class=""s_website_form_label "" style=""width: 200px"" for=""o0wstbw4ui67"">
+                          <span class=""s_website_form_label_content"">
+                            <font style="""" class=""text-600"">Email</font>
+                          </span>
+                          <span class=""s_website_form_mark"">
+                            <font style=""color: rgb(255, 0, 0);"">*</font>
+                          </span>
+                        </label>
+                        <input type=""text"" class=""form-control s_website_form_input"" name=""email_from"" required=""true"" placeholder=""natasha.romanoff@truemd.com"" id=""o0wstbw4ui67""/>
+                      </div>
+                      <div class=""form-group s_website_form_field col-12  s_website_form_model_required  "" data-type=""char"" data-name=""Field"">
+                        <label class=""s_website_form_label "" style=""width: 200px"" for=""om3rzbefak6"">
+                          <span class=""s_website_form_label_content"">
+                            <font style="""" class=""text-600"">Phone</font>
+                          </span>
+                          <span class=""s_website_form_mark"">
+                            <font style=""color: rgb(255, 0, 0);"">*</font>
+                          </span>
+                        </label>
+                        <input type=""text"" class=""form-control s_website_form_input"" name=""subject"" required=""true"" placeholder=""0201 203 2032"" id=""om3rzbefak6""/>
+                      </div>
+                      <div class=""form-group s_website_form_field col-12 s_website_form_custom s_website_form_required col-lg-12"" data-type=""text"" data-name=""Field"">
+                        <label class=""s_website_form_label "" style=""width: 200px"" for=""o08ydcm18o18m"">
+                          <span class=""s_website_form_label_content"">
+                            <font style="""" class=""text-600"">What's on your mind?</font>
+                          </span>
+                          <span class=""s_website_form_mark"">
+                            <font style=""color: rgb(255, 0, 0);"">&amp;nbsp;      *</font>
+                          </span>
+                        </label>
+                        <textarea class=""form-control s_website_form_input"" name=""What's on your mind?"" required=""1"" placeholder="""" id=""o08ydcm18o18m"" rows=""8""/>
+                      </div>
+                      <div class=""form-group s_website_form_field col-12    s_website_form_dnone"" data-name=""Field"">
+                        <div class=""row s_col_no_resize s_col_no_bgcolor"">
+                          <label class=""col-form-label col-sm-auto s_website_form_label "" style=""width: 200px"">
+                            <span class=""s_website_form_label_content""/>
+                            <span title=""Separate email addresses with a comma."">
+                              <i class=""fa fa-info-circle""/>
+                            </span>
+                          </label>
+                          <div class=""col-sm"">
+                            <input type=""hidden"" class=""form-control s_website_form_input"" name=""email_to"" value=""info@yourcompany.example.com""/>
+                          </div>
+                        </div>
+                      </div>
+                      <div class=""form-group col-12 s_website_form_submit text-right s_website_form_no_submit_label"" data-name=""Submit Button"">
+                        <div style=""width: 200px;"" class=""s_website_form_label""/>
+                        <a href=""#"" role=""button"" class=""btn btn-lg btn-primary s_website_form_send"" data-original-title="""" title="""" aria-describedby=""tooltip138086"">&amp;nbsp; SUBMIT&amp;nbsp;&amp;nbsp;</a>
+                        <span id=""s_website_form_result""/>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </section>
+              <p>
+                <br/>
+              </p>
+            </div>
+            <div class=""o_colored_level pb16 pt16 col-lg-4"" style="""">
+              <font style=""font-size: 24px;"" class=""text-600"">
+                <br/>
+              </font>
+              <font style=""font-weight: bold; font-size: 18px;"" class=""text-600"">
+                <br/>
+              </font>
+              <font style=""font-size: 18px;"" class=""text-600"">
+                <b>
+                  <br/>
+                </b>
+              </font>
+            </div>
+            <div class=""o_colored_level pb16 pt16 col-lg-4"" style=""""><font style=""font-size: 24px;"" class=""text-600"">Contact <b>Details<br/><br/><div style=""text-align: left;""><b>&amp;nbsp;</b><span class=""fa fa-phone img-thumbnail text-100"" data-original-title="""" title="""" aria-describedby=""tooltip364524"" style=""background-color: rgb(9, 211, 230);""/><b>&amp;nbsp; &amp;nbsp;</b><span style=""font-size: 14.4px; font-weight: 400;"">0</span><span style=""font-size: 14.4px; font-weight: 400;"">201 203 2023</span></div></b></font><div style=""text-align: left;""><font class=""text-600"" style=""font-size: 18px;""><b>&amp;nbsp;</b></font><span style=""font-size: 1rem;"">&amp;nbsp;</span></div><div style=""text-align: left;""><span style=""font-size: 1rem;"">&amp;nbsp;&amp;nbsp;</span><span class=""fa fa-mobile-phone img-thumbnail text-100"" style=""background-color: rgb(9, 211, 230);"" data-original-title="""" title="""" aria-describedby=""tooltip587306""/><span style=""font-size: 1rem;"">&amp;nbsp; &amp;nbsp; &amp;nbsp;</span><span style=""color: rgb(108, 117, 125);"">201-123-3922</span>&amp;nbsp;&amp;nbsp;<b style=""font-size: 1rem;""><font style="""" class=""text-600"">&amp;nbsp;</font><font style=""font-size: 18px;"" class=""text-600""> &amp;nbsp;&amp;nbsp;</font></b></div><b><div style=""text-align: left;""><b style=""font-size: 1rem;""><font style=""font-size: 18px;"" class=""text-600"">&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; </font></b>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<b style=""font-size: 1rem;""><font style=""font-size: 18px;"" class=""text-600"">&amp;nbsp;</font></b></div></b><div style=""text-align: left;""><span style=""font-size: 1rem;"">&amp;nbsp;&amp;nbsp;</span><span class=""fa fa-envelope-o img-thumbnail text-100"" data-original-title="""" title="""" aria-describedby=""tooltip749009"" style=""background-color: rgb(9, 211, 230);""/><span style=""background-color: rgb(241, 247, 253); font-size: 1rem;"">&amp;nbsp;&amp;nbsp;</span><span style=""font-size: 1rem;"">&amp;nbsp;&amp;nbsp;</span><font style=""font-size: 18px;"">&amp;nbsp;&amp;nbsp;</font><b style=""font-size: 1rem;""><font style=""font-size: 18px;"" class=""text-600""><small>hello@truemd.com</small></font></b></div><div style=""text-align: left; font-weight: bold;""><b style=""font-size: 1rem;""><font style=""font-size: 18px;"" class=""text-600"">&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;</font></b>&amp;nbsp;&amp;nbsp;&amp;nbsp;<small><font style=""font-size: 9px;""><br/></font></small></div><font style="""" class=""text-600""><span style=""font-size: 18px;""><b>&amp;nbsp;&amp;nbsp;</b></span></font><span class=""fa fa-commenting-o img-thumbnail text-100"" style=""background-color: rgb(9, 211, 230);"" data-original-title="""" title="""" aria-describedby=""tooltip486723""/><small><font style=""font-size: 14px;"" class=""text-600""><span style=""font-size: 18px;""><b>&amp;nbsp; &amp;nbsp;</b></span><b> </b>&amp;nbsp;truemd_skype</font></small><small><br/></small><small><font style=""font-size: 18px; font-weight: bold;"" class=""text-600"">&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp;</font></small>&amp;nbsp;<font style=""font-weight: bold; font-size: 18px;"" class=""text-600""> &amp;nbsp;&amp;nbsp;<br/></font><font style=""font-size: 18px;"" class=""text-600""><b><br/></b></font></div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </t>
+</t>
+","","0","","__export__.website_page_26_45185aed","True","","","","True","","website.contact","","True","contact","<t t-name=""website.contact"">
+  <t t-call=""website.layout"">
+    <div id=""wrap"" class=""oe_structure oe_empty"">
+      <section class=""s_text_image pt32 pb32 o_colored_level"" data-snippet=""s_image_text"" data-name=""Image - Text"" style="""">
+        <div class=""container-fluid"">
+          <div class=""row align-items-stretch"">
+            <div class=""pb16 o_colored_level pt0 col-lg-4"" style="""">
+              <h2><a href=""http://8090/web#id=40&amp;action=168&amp;model=res.partner&amp;view_type=form&amp;cids=&amp;menu_id=120"" class=""btn btn-primary"" data-original-title="""" title="""" aria-describedby=""tooltip613834"">CONTACT</a>&amp;nbsp;<font style=""font-size: 24px;"" class=""text-600"">Write Us
+              </font></h2>
+              <section class=""s_website_form pt16 pb16 o_colored_level"" data-vcss=""001"" data-snippet=""s_website_form"" data-name=""Form"">
+                <div class=""container"">
+                  <form action=""/website_form/"" method=""post"" enctype=""multipart/form-data"" class=""o_mark_required"" data-mark=""*"" data-success-mode=""redirect"" data-success-page=""/contactus-thank-you"" data-model_name=""mail.mail"">
+                    <div class=""s_website_form_rows row s_col_no_bgcolor"">
+                      <div class=""form-group s_website_form_field col-12 s_website_form_custom s_website_form_required  "" data-type=""char"" data-name=""Field"">
+                        <label class=""s_website_form_label"" style=""width: 200px"" for=""onf5txx072c"">
+                          <span class=""s_website_form_label_content"">
+                            <font style="""" class=""text-600"">Name</font>
+                          </span>
+                          <span class=""s_website_form_mark"">
+                            <font style="""" class=""text-600"">&amp;nbsp;</font>
+                            <font style=""color: rgb(255, 0, 0);"">    *</font>
+                          </span>
+                        </label>
+                        <input type=""text"" class=""form-control s_website_form_input"" name=""Name"" required=""1"" placeholder=""Natasha Romanoff"" id=""onf5txx072c""/>
+                      </div>
+                      <div class=""form-group s_website_form_field col-12  s_website_form_model_required  "" data-type=""char"" data-name=""Field"">
+                        <label class=""s_website_form_label "" style=""width: 200px"" for=""o0wstbw4ui67"">
+                          <span class=""s_website_form_label_content"">
+                            <font style="""" class=""text-600"">Email</font>
+                          </span>
+                          <span class=""s_website_form_mark"">
+                            <font style=""color: rgb(255, 0, 0);"">*</font>
+                          </span>
+                        </label>
+                        <input type=""text"" class=""form-control s_website_form_input"" name=""email_from"" required=""true"" placeholder=""natasha.romanoff@truemd.com"" id=""o0wstbw4ui67""/>
+                      </div>
+                      <div class=""form-group s_website_form_field col-12  s_website_form_model_required  "" data-type=""char"" data-name=""Field"">
+                        <label class=""s_website_form_label "" style=""width: 200px"" for=""om3rzbefak6"">
+                          <span class=""s_website_form_label_content"">
+                            <font style="""" class=""text-600"">Phone</font>
+                          </span>
+                          <span class=""s_website_form_mark"">
+                            <font style=""color: rgb(255, 0, 0);"">*</font>
+                          </span>
+                        </label>
+                        <input type=""text"" class=""form-control s_website_form_input"" name=""subject"" required=""true"" placeholder=""0201 203 2032"" id=""om3rzbefak6""/>
+                      </div>
+                      <div class=""form-group s_website_form_field col-12 s_website_form_custom s_website_form_required col-lg-12"" data-type=""text"" data-name=""Field"">
+                        <label class=""s_website_form_label "" style=""width: 200px"" for=""o08ydcm18o18m"">
+                          <span class=""s_website_form_label_content"">
+                            <font style="""" class=""text-600"">What's on your mind?</font>
+                          </span>
+                          <span class=""s_website_form_mark"">
+                            <font style=""color: rgb(255, 0, 0);"">&amp;nbsp;      *</font>
+                          </span>
+                        </label>
+                        <textarea class=""form-control s_website_form_input"" name=""What's on your mind?"" required=""1"" placeholder="""" id=""o08ydcm18o18m"" rows=""8""/>
+                      </div>
+                      <div class=""form-group s_website_form_field col-12    s_website_form_dnone"" data-name=""Field"">
+                        <div class=""row s_col_no_resize s_col_no_bgcolor"">
+                          <label class=""col-form-label col-sm-auto s_website_form_label "" style=""width: 200px"">
+                            <span class=""s_website_form_label_content""/>
+                            <span title=""Separate email addresses with a comma."">
+                              <i class=""fa fa-info-circle""/>
+                            </span>
+                          </label>
+                          <div class=""col-sm"">
+                            <input type=""hidden"" class=""form-control s_website_form_input"" name=""email_to"" value=""info@yourcompany.example.com""/>
+                          </div>
+                        </div>
+                      </div>
+                      <div class=""form-group col-12 s_website_form_submit text-right s_website_form_no_submit_label"" data-name=""Submit Button"">
+                        <div style=""width: 200px;"" class=""s_website_form_label""/>
+                        <a href=""#"" role=""button"" class=""btn btn-lg btn-primary s_website_form_send"" data-original-title="""" title="""" aria-describedby=""tooltip138086"">&amp;nbsp; SUBMIT&amp;nbsp;&amp;nbsp;</a>
+                        <span id=""s_website_form_result""/>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </section>
+              <p>
+                <br/>
+              </p>
+            </div>
+            <div class=""o_colored_level pb16 pt16 col-lg-4"" style="""">
+              <font style=""font-size: 24px;"" class=""text-600"">
+                <br/>
+              </font>
+              <font style=""font-weight: bold; font-size: 18px;"" class=""text-600"">
+                <br/>
+              </font>
+              <font style=""font-size: 18px;"" class=""text-600"">
+                <b>
+                  <br/>
+                </b>
+              </font>
+            </div>
+            <div class=""o_colored_level pb16 pt16 col-lg-4"" style=""""><font style=""font-size: 24px;"" class=""text-600"">Contact <b>Details<br/><br/><div style=""text-align: left;""><b>&amp;nbsp;</b><span class=""fa fa-phone img-thumbnail text-100"" data-original-title="""" title="""" aria-describedby=""tooltip364524"" style=""background-color: rgb(9, 211, 230);""/><b>&amp;nbsp; &amp;nbsp;</b><span style=""font-size: 14.4px; font-weight: 400;"">0</span><span style=""font-size: 14.4px; font-weight: 400;"">201 203 2023</span></div></b></font><div style=""text-align: left;""><font class=""text-600"" style=""font-size: 18px;""><b>&amp;nbsp;</b></font><span style=""font-size: 1rem;"">&amp;nbsp;</span></div><div style=""text-align: left;""><span style=""font-size: 1rem;"">&amp;nbsp;&amp;nbsp;</span><span class=""fa fa-mobile-phone img-thumbnail text-100"" style=""background-color: rgb(9, 211, 230);"" data-original-title="""" title="""" aria-describedby=""tooltip587306""/><span style=""font-size: 1rem;"">&amp;nbsp; &amp;nbsp; &amp;nbsp;</span><span style=""color: rgb(108, 117, 125);"">201-123-3922</span>&amp;nbsp;&amp;nbsp;<b style=""font-size: 1rem;""><font style="""" class=""text-600"">&amp;nbsp;</font><font style=""font-size: 18px;"" class=""text-600""> &amp;nbsp;&amp;nbsp;</font></b></div><b><div style=""text-align: left;""><b style=""font-size: 1rem;""><font style=""font-size: 18px;"" class=""text-600"">&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; </font></b>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<b style=""font-size: 1rem;""><font style=""font-size: 18px;"" class=""text-600"">&amp;nbsp;</font></b></div></b><div style=""text-align: left;""><span style=""font-size: 1rem;"">&amp;nbsp;&amp;nbsp;</span><span class=""fa fa-envelope-o img-thumbnail text-100"" data-original-title="""" title="""" aria-describedby=""tooltip749009"" style=""background-color: rgb(9, 211, 230);""/><span style=""background-color: rgb(241, 247, 253); font-size: 1rem;"">&amp;nbsp;&amp;nbsp;</span><span style=""font-size: 1rem;"">&amp;nbsp;&amp;nbsp;</span><font style=""font-size: 18px;"">&amp;nbsp;&amp;nbsp;</font><b style=""font-size: 1rem;""><font style=""font-size: 18px;"" class=""text-600""><small>hello@truemd.com</small></font></b></div><div style=""text-align: left; font-weight: bold;""><b style=""font-size: 1rem;""><font style=""font-size: 18px;"" class=""text-600"">&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;</font></b>&amp;nbsp;&amp;nbsp;&amp;nbsp;<small><font style=""font-size: 9px;""><br/></font></small></div><font style="""" class=""text-600""><span style=""font-size: 18px;""><b>&amp;nbsp;&amp;nbsp;</b></span></font><span class=""fa fa-commenting-o img-thumbnail text-100"" style=""background-color: rgb(9, 211, 230);"" data-original-title="""" title="""" aria-describedby=""tooltip486723""/><small><font style=""font-size: 14px;"" class=""text-600""><span style=""font-size: 18px;""><b>&amp;nbsp; &amp;nbsp;</b></span><b> </b>&amp;nbsp;truemd_skype</font></small><small><br/></small><small><font style=""font-size: 18px; font-weight: bold;"" class=""text-600"">&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp;</font></small>&amp;nbsp;<font style=""font-weight: bold; font-size: 18px;"" class=""text-600""> &amp;nbsp;&amp;nbsp;<br/></font><font style=""font-size: 18px;"" class=""text-600""><b><br/></b></font></div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </t>
+</t>","","CONTACTUS [TrueMD]","","16","","","contact","<t t-name=""website.contact"">
+  <t t-call=""website.layout"">
+    <div id=""wrap"" class=""oe_structure oe_empty"">
+      <section class=""s_text_image pt32 pb32 o_colored_level"" data-snippet=""s_image_text"" data-name=""Image - Text"" style="""">
+        <div class=""container-fluid"">
+          <div class=""row align-items-stretch"">
+            <div class=""pb16 o_colored_level pt0 col-lg-4"" style="""">
+              <h2>&amp;nbsp;<font style=""font-size: 24px;"" class=""text-600"">Write Us
+              </font></h2>
+              <section class=""s_website_form pt16 pb16 o_colored_level"" data-vcss=""001"" data-snippet=""s_website_form"" data-name=""Form"">
+                <div class=""container"">
+                  <form action=""/website_form/"" method=""post"" enctype=""multipart/form-data"" class=""o_mark_required"" data-mark=""*"" data-success-mode=""redirect"" data-success-page=""/contactus-thank-you"" data-model_name=""mail.mail"">
+                    <div class=""s_website_form_rows row s_col_no_bgcolor"">
+                      <div class=""form-group s_website_form_field col-12 s_website_form_custom s_website_form_required  "" data-type=""char"" data-name=""Field"">
+                        <label class=""s_website_form_label"" style=""width: 200px"" for=""onf5txx072c"">
+                          <span class=""s_website_form_label_content"">
+                            <font style="""" class=""text-600"">Name</font>
+                          </span>
+                          <span class=""s_website_form_mark"">
+                            <font style="""" class=""text-600"">&amp;nbsp;</font>
+                            <font style=""color: rgb(255, 0, 0);"">    *</font>
+                          </span>
+                        </label>
+                        <input type=""text"" class=""form-control s_website_form_input"" name=""Name"" required=""1"" placeholder=""Natasha Romanoff"" id=""onf5txx072c""/>
+                      </div>
+                      <div class=""form-group s_website_form_field col-12  s_website_form_model_required  "" data-type=""char"" data-name=""Field"">
+                        <label class=""s_website_form_label "" style=""width: 200px"" for=""o0wstbw4ui67"">
+                          <span class=""s_website_form_label_content"">
+                            <font style="""" class=""text-600"">Email</font>
+                          </span>
+                          <span class=""s_website_form_mark"">
+                            <font style=""color: rgb(255, 0, 0);"">*</font>
+                          </span>
+                        </label>
+                        <input type=""text"" class=""form-control s_website_form_input"" name=""email_from"" required=""true"" placeholder=""natasha.romanoff@truemd.com"" id=""o0wstbw4ui67""/>
+                      </div>
+                      <div class=""form-group s_website_form_field col-12  s_website_form_model_required  "" data-type=""char"" data-name=""Field"">
+                        <label class=""s_website_form_label "" style=""width: 200px"" for=""om3rzbefak6"">
+                          <span class=""s_website_form_label_content"">
+                            <font style="""" class=""text-600"">Phone</font>
+                          </span>
+                          <span class=""s_website_form_mark"">
+                            <font style=""color: rgb(255, 0, 0);"">*</font>
+                          </span>
+                        </label>
+                        <input type=""text"" class=""form-control s_website_form_input"" name=""subject"" required=""true"" placeholder=""0201 203 2032"" id=""om3rzbefak6""/>
+                      </div>
+                      <div class=""form-group s_website_form_field col-12 s_website_form_custom s_website_form_required col-lg-12"" data-type=""text"" data-name=""Field"">
+                        <label class=""s_website_form_label "" style=""width: 200px"" for=""o08ydcm18o18m"">
+                          <span class=""s_website_form_label_content"">
+                            <font style="""" class=""text-600"">What's on your mind?</font>
+                          </span>
+                          <span class=""s_website_form_mark"">
+                            <font style=""color: rgb(255, 0, 0);"">&amp;nbsp;      *</font>
+                          </span>
+                        </label>
+                        <textarea class=""form-control s_website_form_input"" name=""What's on your mind?"" required=""1"" placeholder="""" id=""o08ydcm18o18m"" rows=""8""/>
+                      </div>
+                      <div class=""form-group s_website_form_field col-12    s_website_form_dnone"" data-name=""Field"">
+                        <div class=""row s_col_no_resize s_col_no_bgcolor"">
+                          <label class=""col-form-label col-sm-auto s_website_form_label "" style=""width: 200px"">
+                            <span class=""s_website_form_label_content""/>
+                            <span title=""Separate email addresses with a comma."">
+                              <i class=""fa fa-info-circle""/>
+                            </span>
+                          </label>
+                          <div class=""col-sm"">
+                            <input type=""hidden"" class=""form-control s_website_form_input"" name=""email_to"" value=""info@yourcompany.example.com""/>
+                          </div>
+                        </div>
+                      </div>
+                      <div class=""form-group col-12 s_website_form_submit text-right s_website_form_no_submit_label"" data-name=""Submit Button"">
+                        <div style=""width: 200px;"" class=""s_website_form_label""/>
+                        <a href=""#"" role=""button"" class=""btn btn-lg btn-primary s_website_form_send"" data-original-title="""" title="""" aria-describedby=""tooltip138086"">&amp;nbsp; SUBMIT&amp;nbsp;&amp;nbsp;</a>
+                        <span id=""s_website_form_result""/>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </section>
+              <p>
+                <br/>
+              </p>
+            </div>
+            <div class=""o_colored_level pb16 pt16 col-lg-4"" style="""">
+              <font style=""font-size: 24px;"" class=""text-600"">
+                <br/>
+              </font>
+              <font style=""font-weight: bold; font-size: 18px;"" class=""text-600"">
+                <br/>
+              </font>
+              <font style=""font-size: 18px;"" class=""text-600"">
+                <b>
+                  <br/>
+                </b>
+              </font>
+            </div>
+            <div class=""o_colored_level pb16 pt16 col-lg-4"" style=""""><font style=""font-size: 24px;"" class=""text-600"">Contact <b>Details<br/><br/><div style=""text-align: left;""><b>&amp;nbsp;</b><span class=""fa fa-phone img-thumbnail text-100"" data-original-title="""" title="""" aria-describedby=""tooltip364524"" style=""background-color: rgb(9, 211, 230);""/><b>&amp;nbsp; &amp;nbsp;</b><span style=""font-size: 14.4px; font-weight: 400;"">0</span><span style=""font-size: 14.4px; font-weight: 400;"">201 203 2023</span></div></b></font><div style=""text-align: left;""><font class=""text-600"" style=""font-size: 18px;""><b>&amp;nbsp;</b></font><span style=""font-size: 1rem;"">&amp;nbsp;</span></div><div style=""text-align: left;""><span style=""font-size: 1rem;"">&amp;nbsp;&amp;nbsp;</span><span class=""fa fa-mobile-phone img-thumbnail text-100"" style=""background-color: rgb(9, 211, 230);"" data-original-title="""" title="""" aria-describedby=""tooltip587306""/><span style=""font-size: 1rem;"">&amp;nbsp; &amp;nbsp; &amp;nbsp;</span><span style=""color: rgb(108, 117, 125);"">201-123-3922</span>&amp;nbsp;&amp;nbsp;<b style=""font-size: 1rem;""><font style="""" class=""text-600"">&amp;nbsp;</font><font style=""font-size: 18px;"" class=""text-600""> &amp;nbsp;&amp;nbsp;</font></b></div><b><div style=""text-align: left;""><b style=""font-size: 1rem;""><font style=""font-size: 18px;"" class=""text-600"">&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; </font></b>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<b style=""font-size: 1rem;""><font style=""font-size: 18px;"" class=""text-600"">&amp;nbsp;</font></b></div></b><div style=""text-align: left;""><span style=""font-size: 1rem;"">&amp;nbsp;&amp;nbsp;</span><span class=""fa fa-envelope-o img-thumbnail text-100"" data-original-title="""" title="""" aria-describedby=""tooltip749009"" style=""background-color: rgb(9, 211, 230);""/><span style=""background-color: rgb(241, 247, 253); font-size: 1rem;"">&amp;nbsp;&amp;nbsp;</span><span style=""font-size: 1rem;"">&amp;nbsp;&amp;nbsp;</span><font style=""font-size: 18px;"">&amp;nbsp;&amp;nbsp;</font><b style=""font-size: 1rem;""><font style=""font-size: 18px;"" class=""text-600""><small>hello@truemd.com</small></font></b></div><div style=""text-align: left; font-weight: bold;""><b style=""font-size: 1rem;""><font style=""font-size: 18px;"" class=""text-600"">&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;</font></b>&amp;nbsp;&amp;nbsp;&amp;nbsp;<small><font style=""font-size: 9px;""><br/></font></small></div><font style="""" class=""text-600""><span style=""font-size: 18px;""><b>&amp;nbsp;&amp;nbsp;</b></span></font><span class=""fa fa-commenting-o img-thumbnail text-100"" style=""background-color: rgb(9, 211, 230);"" data-original-title="""" title="""" aria-describedby=""tooltip486723""/><small><font style=""font-size: 14px;"" class=""text-600""><span style=""font-size: 18px;""><b>&amp;nbsp; &amp;nbsp;</b></span><b> </b>&amp;nbsp;truemd_skype</font></small><small><br/></small><small><font style=""font-size: 18px; font-weight: bold;"" class=""text-600"">&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp;</font></small>&amp;nbsp;<font style=""font-weight: bold; font-size: 18px;"" class=""text-600""> &amp;nbsp;&amp;nbsp;<br/></font><font style=""font-size: 18px;"" class=""text-600""><b><br/></b></font></div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </t>
+</t>","primary","qweb","","","","","True","","","",""

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <!-- create kanban -->
+  <record id="view_patient_kanban" model="ir.ui.view">
+    <field name="name">hospital.patient.kanban</field>
+    <field name="model">hospital.patient</field>
+    <field name="arch" type="xml">
+      <kanban>
+        <field name="id" />
+        <field name="name" />
+        <field name="gender" />
+        <field name="age" />
+        <field name="note" />
+        <templates>
+          <t t-name="kanban-box">
+            <div t-attf-class="oe_kanban_global_click">
+              <div class="oe_kanban_details">
+                <ul>
+                  <li>
+                    <field name="name" />
+                  </li>
+                  <li>
+                    <field name="gender" />
+                  </li>
+                  <li>
+                    <field name="age" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </t>
+        </templates>
+      </kanban>
+    </field>
+  </record>
+
+
+  <!-- create tree -->
+  <record id="patient_tree_view" model="ir.ui.view">
+    <field name="name">hospital.patient.tree</field>
+    <field name="model">hospital.patient</field>
+    <field name="arch" type="xml">
+      <tree>
+        <field name="name" />
+        <!-- <field name="responsible_id"/> -->
+        <field name="gender" />
+        <field name="age" />
+        <field name="note" />
+        <field name="state" />
+      </tree>
+    </field>
+  </record>
+  <!-- create form -->
+  <record id="patient_form" model="ir.ui.view">
+    <field name="name">hospital.patient.form</field>
+    <field name="model">hospital.patient</field>
+    <field name="arch" type="xml">
+      <form>
+        <header>
+          <button id="button_draft" name="action_draft" string="mark_draft" class="btn-primary" type="object" />
+          <button id="button_confirm" name="action_confrim" string="confirm" class="btn-primary" type="object" />
+          <button id="button_done" name="action_done" string="mark_done" class="btn-primary" type="object" />
+          <button id="button_cancel" name="action_cancel" string="mark_cancel" class="btn-primary" type="object" />
+          <field name="state" widget="statusbar" options="{'clickable':'1'}" statusbar="draft,done,confirm" />
+        </header>
+        <sheet>
+          <group>
+            <group>
+              <field name="name" />
+              <!-- <field name="responsible_id"/> -->
+              <field name="age" />
+            </group>
+            <group>
+              <field name="gender" />
+              <field name="note" />
+            </group>
+
+          </group>
+
+        </sheet>
+        <div class="oe_chatter">
+          <field name="message_follower_ids" />
+          <field name="activity_ids" />
+          <field name="message_ids" />
+        </div>
+      </form>
+    </field>
+  </record>
+
+  <!-- create action -->
+  <record id="patient_action" model="ir.actions.act_window">
+    <field name="name">Patients</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">hospital.patient</field>
+    <field name="view_mode">tree,form,kanban</field>
+
+    <field name="help" type="html">
+      <p class="o_view_nocontent_smiling_face">
+                Create your first patients.
+              </p>
+    </field>
+  </record>
+  <!-- search view -->
+  <record id="patient_search" model="ir.ui.view">
+    <field name="name">hospital.patient.search</field>
+    <field name="model">hospital.patient</field>
+    <field name="arch" type="xml">
+      <search string="patients">
+
+        <field name="name"></field>
+        <field name="note"></field>
+        <separator />
+        <group expand="1" string="Group By">
+          <filter string="Gender" name="Gender" context="{'group_by':'gender'}"></filter>
+
+        </group>
+      </search>
+    </field>
+
+
+  </record>
+
+  <!-- create menu -->
+  <menuitem id="Hospital_root" name="Hospital" sequence="10" />
+
+  <menuitem id="Hospital_patient_root" name="patients" parent="Hospital_root" sequence="10" />
+  <menuitem id="Hospital_patient" name="patients" parent="Hospital_patient_root" action="patient_action" sequence="10" />
+
+
+</odoo>

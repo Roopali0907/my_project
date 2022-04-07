@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <!-- create tree -->
+  <record id="Vaccine_tree_view" model="ir.ui.view">
+    <field name="name">covid.vac.tree</field>
+    <field name="model">covid.vac</field>
+    <field name="arch" type="xml">
+      <tree>
+        <field name="name" />
+        <!-- <field name="responsible_id"/> -->
+        <field name="gender" />
+        <field name="age" />
+        <field name="note" />
+      </tree>
+    </field>
+  </record>
+  <!-- create form -->
+  <record id="Vaccine_form" model="ir.ui.view">
+    <field name="name">covid.vac.form</field>
+    <field name="model">covid.vac</field>
+    <field name="arch" type="xml">
+      <form>
+        <sheet>
+          <group>
+            <group>
+              <field name="name" />
+              <!-- <field name="responsible_id"/> -->
+              <field name="age" />
+            </group>
+            <group>
+              <field name="gender" />
+              <field name="note" />
+            </group>
+
+          </group>
+
+        </sheet>
+
+      </form>
+    </field>
+  </record>
+
+  <!-- create action -->
+  <record id="Vaccine_action" model="ir.actions.act_window">
+    <field name="name">Vaccines</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">covid.vac</field>
+    <field name="view_mode">tree,form,kanban</field>
+
+    <field name="help" type="html">
+      <p class="o_view_nocontent_smiling_face">
+                Create your first patients.
+              </p>
+    </field>
+  </record>
+  <!-- search view -->
+
+
+  <!-- create menu -->
+  <menuitem id="Hospital_root" name="Covid Vaccine" sequence="10" />
+  <menuitem id="Hospital_patient_root" name="vaccineinformation" parent="Hospital_root" sequence="10"/>
+  <menuitem id="Hospital_patient_sub_root" name="vaccine" parent="Hospital_patient_root" sequence="10" action="Vaccine_action"/>
+
+</odoo>
